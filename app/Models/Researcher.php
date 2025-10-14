@@ -19,6 +19,8 @@ class Researcher extends Model
         'password',
         'is_verified',
         'is_active',
+        'google_id',
+        'facebook_id'
     ];
 
     protected $hidden = [
